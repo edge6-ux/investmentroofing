@@ -142,7 +142,7 @@ export default function ServicesPage() {
             {' / Services'}
           </p>
 
-          <h1 className="font-heading text-5xl font-extrabold text-white leading-tight max-w-xl mb-4">
+          <h1 className="font-heading text-4xl sm:text-5xl font-extrabold text-white leading-tight max-w-xl mb-4">
             Roofing Services in<br />North Georgia
           </h1>
           <p className="text-base text-white/70 max-w-lg">
@@ -155,8 +155,8 @@ export default function ServicesPage() {
       {/* ══════════════════════════════════════════
           2. SERVICES NAV BAR
       ══════════════════════════════════════════ */}
-      <nav className="bg-brand-dark border-b-2 border-brand-green">
-        <div className="max-w-7xl mx-auto flex">
+      <nav className="bg-brand-dark border-b-2 border-brand-green overflow-x-auto">
+        <div className="max-w-7xl mx-auto flex min-w-max">
           {navItems.map(({ Icon, label, anchor }, idx) => (
             <a
               key={label}

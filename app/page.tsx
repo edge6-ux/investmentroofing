@@ -134,7 +134,7 @@ export default function HomePage() {
           <p className="text-brand-green font-bold text-xs tracking-widest uppercase mb-3">
             GAF CERTIFIED™ · CLEVELAND, GA
           </p>
-          <h1 className="font-heading text-5xl font-extrabold text-white leading-tight max-w-xl mb-4">
+          <h1 className="font-heading text-4xl sm:text-5xl font-extrabold text-white leading-tight max-w-xl mb-4">
             North Georgia&apos;s Most Trusted<br />Roofing Contractor
           </h1>
           <p className="text-base text-white/70 max-w-md mb-8">
@@ -159,8 +159,8 @@ export default function HomePage() {
       </section>
 
       {/* Trust bar */}
-      <div className="bg-brand-dark border-t border-[rgba(57,226,19,0.3)]">
-        <div className="grid grid-cols-5">
+      <div className="bg-brand-dark border-t border-[rgba(57,226,19,0.3)] overflow-x-auto">
+        <div className="grid grid-cols-5 min-w-[520px]">
           {trustItems.map(({ Icon, label }) => (
             <div
               key={label}

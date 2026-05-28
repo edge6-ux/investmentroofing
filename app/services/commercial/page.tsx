@@ -144,7 +144,7 @@ export default function CommercialRoofingPage() {
       {/* ══════════════════════════════════════════
           1. HERO
       ══════════════════════════════════════════ */}
-      <section className="relative aspect-[16/6] overflow-hidden w-full">
+      <section className="relative aspect-[16/6] min-h-[400px] overflow-hidden w-full">
         <Image
           src="/images/roofcommercial.png"
           alt="Investment Roofing crew installing TPO membrane on a commercial roof in North Georgia"
@@ -155,7 +155,7 @@ export default function CommercialRoofingPage() {
         <div className="absolute inset-0 bg-[#0D2E00] opacity-60 mix-blend-multiply" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent" />
 
-        <div className="absolute inset-0 z-10 flex flex-col justify-center pl-6 sm:pl-16 pb-16">
+        <div className="absolute inset-0 z-10 flex flex-col justify-center pl-6 sm:pl-16 pb-4 md:pb-16">
           <p className="text-white/50 text-xs mb-4">
             <Link href="/" className="hover:text-white/80 transition-colors">Home</Link>
             {' / '}
@@ -165,7 +165,7 @@ export default function CommercialRoofingPage() {
           <p className="text-brand-green font-bold text-xs tracking-widest uppercase mb-3">
             TPO · METAL · FLAT ROOFING · RESTORATION
           </p>
-          <h1 className="font-heading text-5xl font-extrabold text-white leading-tight max-w-xl mb-4">
+          <h1 className="font-heading text-4xl sm:text-5xl font-extrabold text-white leading-tight max-w-xl mb-4">
             Commercial Roofing Services<br />in North Georgia
           </h1>
           <p className="text-base text-white/70 max-w-lg mb-8">

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
 import {
   HardHat,
   DollarSign,
@@ -118,7 +117,7 @@ export default function JoinOurTeamPage() {
       {/* ══════════════════════════════════════════
           1. HERO
       ══════════════════════════════════════════ */}
-      <section className="relative aspect-[16/6] overflow-hidden w-full">
+      <section className="relative aspect-[16/6] min-h-[400px] overflow-hidden w-full">
         <Image
           src="/images/joinourteam.jpg"
           alt="Investment Roofing crew working on a North Georgia roof"
@@ -133,7 +132,7 @@ export default function JoinOurTeamPage() {
           <p className="text-brand-green font-bold text-xs tracking-widest uppercase mb-3">
             WE&apos;RE HIRING · NORTH GEORGIA
           </p>
-          <h1 className="font-heading text-5xl font-extrabold text-white leading-tight max-w-xl mb-4">
+          <h1 className="font-heading text-4xl sm:text-5xl font-extrabold text-white leading-tight max-w-xl mb-4">
             Build a Career With<br />Investment Roofing
           </h1>
           <p className="text-base text-white/70 max-w-lg mb-8">
