@@ -19,7 +19,7 @@ export default function GalleryPage() {
       ══════════════════════════════════════════ */}
       <section className="relative aspect-[16/6] min-h-[400px] overflow-hidden w-full">
         <Image
-          src="/gallery/9ae4642d-b727-42f4-a6f1-bc8c29961c09-1.jpg"
+          src="/images/gallery/9ae4642d-b727-42f4-a6f1-bc8c29961c09-1.jpg"
           alt="Completed metal roofing installation on a North Georgia home by Investment Roofing"
           fill
           className="object-cover object-center"
