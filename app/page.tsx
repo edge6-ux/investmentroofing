@@ -159,12 +159,12 @@ export default function HomePage() {
       </section>
 
       {/* Trust bar */}
-      <div className="bg-brand-dark border-t border-[rgba(57,226,19,0.3)] overflow-x-auto">
-        <div className="grid grid-cols-5 min-w-[520px]">
-          {trustItems.map(({ Icon, label }) => (
+      <div className="bg-brand-dark border-t border-[rgba(57,226,19,0.3)]">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-px bg-white/10">
+          {trustItems.map(({ Icon, label }, i) => (
             <div
               key={label}
-              className="flex items-center justify-center gap-2 py-4 border-r border-white/10 last:border-r-0"
+              className={`flex items-center justify-center gap-2 py-4 bg-brand-dark${i === 4 ? ' col-span-2 md:col-span-1' : ''}`}
             >
               <Icon size={18} className="text-brand-green flex-shrink-0" />
               <span className="text-white text-xs font-semibold uppercase tracking-wide whitespace-nowrap">
