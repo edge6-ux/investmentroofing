@@ -114,8 +114,7 @@ export default function HomePage() {
           1. HERO + TRUST BAR — fills viewport below navbar
              Mobile navbar: 72px  Desktop navbar: 108px
       ══════════════════════════════════════════ */}
-      <div className="flex flex-col h-[calc(100dvh-72px)] md:h-[calc(100vh-108px)]">
-      <section className="relative flex-1 overflow-hidden w-full">
+      <section className="relative overflow-hidden w-full h-[calc(100svh-72px)] md:h-[calc(100svh-108px)]">
         <Image
           src="/images/roofhero.png"
           alt="Investment Roofing contractors working on a North Georgia home"
@@ -174,7 +173,6 @@ export default function HomePage() {
           ))}
         </div>
       </div>
-      </div>{/* end viewport wrapper */}
 
       {/* ══════════════════════════════════════════
           2. SERVICES OVERVIEW
