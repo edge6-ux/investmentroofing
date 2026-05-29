@@ -114,7 +114,7 @@ export default function HomePage() {
           1. HERO + TRUST BAR — fills viewport below navbar
              Mobile navbar: 72px  Desktop navbar: 108px
       ══════════════════════════════════════════ */}
-      <div className="flex flex-col h-[calc(100vh-72px)] md:h-[calc(100vh-108px)]">
+      <div className="flex flex-col h-[calc(100dvh-72px)] md:h-[calc(100vh-108px)]">
       <section className="relative flex-1 overflow-hidden w-full">
         <Image
           src="/images/roofhero.png"
