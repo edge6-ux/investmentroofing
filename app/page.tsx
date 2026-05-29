@@ -115,11 +115,19 @@ export default function HomePage() {
              Mobile navbar: 72px  Desktop navbar: 108px
       ══════════════════════════════════════════ */}
       <section className="relative overflow-hidden w-full h-[calc(100svh-72px)] md:h-[calc(100svh-108px)]">
+        {/* Portrait image on mobile, landscape on desktop */}
+        <Image
+          src="/images/mobilehero.png"
+          alt="Investment Roofing contractor working on a North Georgia home"
+          fill
+          className="object-cover object-center md:hidden"
+          priority
+        />
         <Image
           src="/images/roofhero.png"
           alt="Investment Roofing contractors working on a North Georgia home"
           fill
-          className="object-cover object-center scale-[1.04]"
+          className="object-cover object-center scale-[1.04] hidden md:block"
           priority
         />
 
