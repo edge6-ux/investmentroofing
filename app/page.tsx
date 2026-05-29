@@ -119,7 +119,7 @@ export default function HomePage() {
           src="/images/roofhero.png"
           alt="Investment Roofing contractors working on a North Georgia home"
           fill
-          className="object-cover object-center"
+          className="object-cover object-center scale-[1.04]"
           priority
         />
 
